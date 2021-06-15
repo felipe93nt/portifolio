@@ -1,0 +1,74 @@
+.footer-distributed {
+    background-color: rgba(250, 86, 21, 0.8);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 21px 50px;
+    margin: 50px 0 0 0;
+    position: fixed;
+    bottom: 2px;
+}
+
+.footer-distributed .footer-left p {
+    color: #ffdccf;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-distributed p.footer-links {
+    font-weight: bold;
+    color: white;
+    margin: 0 0 10px;
+}
+
+.footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-links a:before {
+    content: " ";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+.footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #ff5614d7;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 3px;
+    transition: all .25s;
+}
+
+.footer-distributed .footer-right a:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.footer-distributed p.footer-links a:hover {
+    color: white;
+}
+
+img {
+    margin-top: 5px;
+}

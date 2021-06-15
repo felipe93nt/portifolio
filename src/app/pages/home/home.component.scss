@@ -1,3 +1,56 @@
-.text-warning {
-    margin-top: 20%;
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+.nome {
+    font-weight: 300;
+    font-size: 72px;
+    color: #324B4A;
+}
+
+.funcao {
+    font-weight: 300;
+    font-size: 38px;
+    color: #060606;
+    transform: rotate(-0.28deg);
+}
+
+.titulo_desc {
+    position: absolute;
+    width: 83px;
+    height: 37px;
+    left: 818px;
+    top: 389px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+}
+
+.desc {
+    position: absolute;
+    width: 420px;
+    height: 100px;
+    left: 818px;
+    top: 443px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
 }
